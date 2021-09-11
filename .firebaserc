@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "angular-auth-test-641b9": {
+      "hosting": {
+        "angular-firebase-auth": [
+          "angular-auth-test-641b9"
+        ]
+      }
+    }
+  }
+}
