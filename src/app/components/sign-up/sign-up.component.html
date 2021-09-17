@@ -1,1 +1,11 @@
-<p>sign-up works!</p>
+<h1>sign up</h1>
+<form [formGroup]="registerForm">
+  <label for="email">your Email</label>
+  <input type="text" name="email" formControlName="email" />
+  <br />
+  <label for="password">your Password</label>
+  <input type="password" name="password" formControlName="password" />
+  <button (click)="createUser($event)">Login</button>
+  <br />
+  <a routerLink="/sign-in">go to sign in page </a>
+</form>

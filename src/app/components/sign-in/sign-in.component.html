@@ -1,1 +1,10 @@
-<p>sign-in works!</p>
+<form action="" [formGroup]="signInForm">
+  <label for="email">your Email</label>
+  <input type="text" name="email" formControlName="email" />
+  <br />
+  <label for="password">your Password</label>
+  <input type="password" name="password" formControlName="password" />
+  <button (click)="onLogin($event)">Login</button>
+  <br />
+  <a routerLink="/signup">go to sign Up page </a>
+</form>
